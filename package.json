@@ -1,0 +1,25 @@
+{
+  "name": "kasa-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Plateforme de réservation de logements entre particuliers : front Next.js / React et API Node.js",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=24"
+  },
+  "workspaces": [
+    "apps/web",
+    "apps/api"
+  ],
+  "scripts": {
+    "dev": "concurrently -n api,web -c blue,green \"npm run dev:api\" \"npm run dev:web\"",
+    "dev:api": "npm run dev -w apps/api",
+    "dev:web": "npm run dev -w apps/web",
+    "build": "npm run build -w apps/web",
+    "start": "concurrently -n api,web -c blue,green \"npm run start -w apps/api\" \"npm run start -w apps/web\"",
+    "lint": "npm run lint --workspaces --if-present"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
