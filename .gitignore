@@ -1,0 +1,26 @@
+# Dépendances
+node_modules/
+
+# Build Next.js
+.next/
+out/
+*.tsbuildinfo
+
+# Environnement : seuls les .env.example sont versionnés
+.env
+.env.local
+.env.*.local
+
+# Journaux
+*.log
+npm-debug.log*
+
+# Éditeurs et systèmes
+.vscode/*
+!.vscode/launch.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Déploiement
+.vercel

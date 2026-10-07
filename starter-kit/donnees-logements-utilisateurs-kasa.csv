@@ -1,0 +1,23 @@
+type_enregistrement,id,titre,type_logement,ville,prix_par_nuit,id_hote,role,prenom,nom,email,mot_de_passe_clair,date_creation
+utilisateur,u-001,,,,,,administrateur,Inès,Favreau,ines.favreau@kasa-demo.fr,Admin!Kasa2026,2026-01-05
+utilisateur,u-002,,,,,,hote,Marc,Lévesque,marc.levesque@exemple-kasa.fr,marcl-hote-01,2026-01-06
+utilisateur,u-003,,,,,,hote,Sofia,Brandao,sofia.brandao@exemple-kasa.fr,Sofia@Brandao77,2026-01-06
+utilisateur,u-004,,,,,,hote,Thibault,Ravel,thibault.ravel@exemple-kasa.fr,ravel2026,2026-01-08
+utilisateur,u-005,,,,,,hote,Nadia,Kessler,nadia.kessler@exemple-kasa.fr,nadia-kasa!,2026-01-10
+utilisateur,u-006,,,,,,utilisateur,Julien,Morand,julien.morand@exemple-kasa.fr,azerty123,2026-01-12
+utilisateur,u-007,,,,,,utilisateur,Clara,Benoît,clara.benoit@exemple-kasa.fr,Clara!2026,2026-01-12
+utilisateur,u-008,,,,,,utilisateur,Omar,Tahiri,omar.tahiri@exemple-kasa.fr,motdepasse,2026-01-14
+utilisateur,u-009,,,,,,utilisateur,Léa,Fontaine,lea.fontaine@exemple-kasa.fr,lea-voyage-42,2026-01-15
+utilisateur,u-010,,,,,,utilisateur,Victor,Haas,victor.haas@exemple-kasa.fr,Vh#Kasa2026,2026-01-17
+logement,l-001,Studio lumineux près du canal,appartement,Paris,89,u-002,,,,,,2026-01-07
+logement,l-002,Maison de pêcheur avec jardin,maison,Saint-Malo,145,u-003,,,,,,2026-01-07
+logement,l-003,Deux-pièces au cœur du Vieux-Lyon,appartement,Lyon,98,u-004,,,,,,2026-01-09
+logement,l-004,Villa familiale avec piscine,maison,Aix-en-Provence,260,u-005,,,,,,2026-01-11
+logement,l-005,Loft industriel rénové,appartement,Nantes,120,u-002,,,,,,2026-01-11
+logement,l-006,Chalet au pied des pistes,maison,Chamonix-Mont-Blanc,215,u-003,,,,,,2026-01-13
+logement,l-007,Appartement vue mer,appartement,Marseille,110,u-004,,,,,,2026-01-13
+logement,l-008,Longère bretonne rénovée,maison,Quimper,135,u-005,,,,,,2026-01-16
+logement,l-009,T3 proche gare Saint-Jean,appartement,Bordeaux,95,u-002,,,,,,2026-01-16
+logement,l-010,Maison de ville avec terrasse,maison,Toulouse,150,u-003,,,,,,2026-01-18
+logement,l-011,Studio étudiant cosy,appartement,Lille,62,u-004,,,,,,2026-01-18
+logement,l-012,Gîte en pleine campagne,maison,Sarlat-la-Canéda,105,u-005,,,,,,2026-01-20

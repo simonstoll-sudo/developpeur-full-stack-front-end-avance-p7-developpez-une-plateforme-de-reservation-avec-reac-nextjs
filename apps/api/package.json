@@ -1,0 +1,22 @@
+{
+  "name": "@kasa/api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "API Node.js de la plateforme Kasa : logements et connexion",
+  "type": "module",
+  "main": "src/serveur.js",
+  "scripts": {
+    "dev": "node --watch --env-file-if-exists=.env src/serveur.js",
+    "start": "node --env-file-if-exists=.env src/serveur.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9",
+    "eslint": "^9",
+    "globals": "^16"
+  }
+}
